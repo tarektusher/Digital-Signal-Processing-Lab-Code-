@@ -1,0 +1,13 @@
+t=0:0.01:1;
+x=sin(2*pi*t);
+subplot(2,1,1);
+plot(t,x);
+title('Input Signal');
+xlabel('time');
+ylabel('amplitude');
+subplot(2,1,2);
+plot(-t,x);
+title('folded signal');
+xlabel('time');
+ylabel('amplitude');
+display(x);

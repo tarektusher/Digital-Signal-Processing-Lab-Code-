@@ -1,0 +1,10 @@
+N = input('Enter the Limit: ');
+n = -N:N;
+xn = input('Enter the input sequence: ');
+xN = fliplr(xn);
+xo = (xn - xN) / 2;
+stem(n, xo);
+grid;
+xlabel('n');
+ylabel('xo[n]');
+title('Odd Signal');
